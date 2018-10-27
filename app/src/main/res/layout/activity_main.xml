@@ -12,7 +12,7 @@
         android:layout_gravity="fill_horizontal"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:src="@drawable/weconect"
+        android:src="@drawable/bcconectwhite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
