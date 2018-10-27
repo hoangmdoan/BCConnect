@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.app.bc.myapplication">
+
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,7 +20,11 @@
         </activity>
         <activity android:name=".MenuPage" />
         <activity android:name=".MessageActivity" />
-        <activity android:name=".HomeworkActivity"></activity>
+        <activity android:name=".HomeworkActivity" />
+        <activity android:name=".GroupsActivity" />
+        <activity android:name=".ClubsActivity" />
+        <activity android:name=".ScholarshipActivity" />
+        <activity android:name=".AskInstructorActivity"></activity>
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
