@@ -6,4 +6,11 @@
         <item>CST 003</item>
         <item>CST 004</item>
     </string-array>
+    <string-array name="Ask_instructor">
+        <item>ENC1101-Daiana</item>
+        <item>MAT2311-Juan</item>
+        <item>MUL2010-Henrry</item>
+        <item>CHM1045-Alfredo</item>
+        <item>COP1210C-Shaoting</item>
+    </string-array>
 </resources>

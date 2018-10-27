@@ -12,7 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class ClubsActivity extends ListActivity {
-    static final String[] CLUBS = new String[] { "1. Sport", "2. Tech", "3. Cultures",
+    static final String[] CLUBS = new String[] { "1. Sport", "2. Tech", "3. Culture",
             "4. International Student", "5. Honor Student" };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
