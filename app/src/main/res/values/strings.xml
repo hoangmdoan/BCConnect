@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">BC Connect</string>
+    <string-array name="group_arrays">
+        <item>CST 001</item>
+        <item>CST 002</item>
+        <item>CST 003</item>
+        <item>CST 004</item>
+    </string-array>
 </resources>
