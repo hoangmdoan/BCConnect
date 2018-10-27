@@ -82,4 +82,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4"
         app:layout_constraintVertical_bias="0.014" />
+
+    <WebView
+        android:id="@+id/activity_menu_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        />
+
 </android.support.constraint.ConstraintLayout>

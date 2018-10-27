@@ -1,0 +1,29 @@
+<html>
+<head>
+</head>
+
+<body>
+<img src="adpic.png" alt="rotating image" width="400" height="300" id="rotator">
+
+<script type="text/javascript">
+(function() {
+var rotator = document.getElementById('rotator');  // change to match image ID
+//var imageDir = 'images/';                          // change to match images folder
+var delayInSeconds = 1;                            // set number of seconds delay
+// list image names
+var images = ['adpic.png','adpic2.png'];
+
+// don't change below this line
+var num = 0;
+var changeImage = function() {
+    var len = images.length;
+    rotator.src = images[num++];
+    if (num == len) {
+        num = 0;
+    }
+};
+setInterval(changeImage, delayInSeconds * 1500);
+})();
+</script>
+</body>
+</html>

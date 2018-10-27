@@ -5,10 +5,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.view.View;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+import android.webkit.WebSettings;
 import android.widget.Button;
 import android.widget.EditText;
 
 public class MenuPage extends AppCompatActivity {
+
+    private WebView mWebView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,5 +29,12 @@ public class MenuPage extends AppCompatActivity {
                 startActivity(startIntent);
             }
         });
+
+        mWebView = (WebView) findViewById(R.id.activity_menu_webview);
+        // Enable Javascript
+        WebSettings webSettings = mWebView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
+        //mWebView.loadUrl("https://bconline.broward.edu/content/Courses/CompSci/Announcements/CSIT/newsannouncement.html");
+        mWebView.loadUrl("file:///android_asset/ad.html");
     }
 }
