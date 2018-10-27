@@ -3,6 +3,7 @@
     package="com.app.bc.myapplication">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -24,7 +25,8 @@
         <activity android:name=".GroupsActivity" />
         <activity android:name=".ClubsActivity" />
         <activity android:name=".ScholarshipActivity" />
-        <activity android:name=".AskInstructorActivity"></activity>
+        <activity android:name=".AskInstructorActivity" />
+        <activity android:name=".NextPopUpActivity"></activity>
     </application>
-    <uses-permission android:name="android.permission.INTERNET" />
+
 </manifest>

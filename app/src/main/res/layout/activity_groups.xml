@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".GroupsActivity">
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="226dp"
+        android:layout_height="70dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="16dp" />
 </android.support.constraint.ConstraintLayout>
